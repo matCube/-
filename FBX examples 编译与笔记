@@ -1,0 +1,6 @@
+编译：
+1. 在对应example同级目录下建立新的vs工程
+2. 将对应example的代码复制到这个新工程目录下，添加到工程
+3. 设置 include / lib（x86）目录， 在依赖库引入libfbxsdk.lib
+4. 在工程内部目录贴上 libfbxsdk.dll
+5. 字符集设置。
